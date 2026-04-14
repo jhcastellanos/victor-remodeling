@@ -12,13 +12,9 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header__inner">
-        <div className="header__logo">
+        <a href="#hero" className="header__logo" onClick={(e) => { e.preventDefault(); scrollTo('hero'); }}>
           <img src={logoImg} alt="Victor Remodeling" className="header__logo-img" />
-          <div>
-            <span className="header__logo-name">VICTOR</span>
-            <span className="header__logo-sub">Remodeling</span>
-          </div>
-        </div>
+        </a>
 
         <nav className="header__nav">
           <button onClick={() => scrollTo('hero')}>{t.nav.home}</button>

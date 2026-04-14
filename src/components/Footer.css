@@ -1,9 +1,10 @@
 .footer {
   background: linear-gradient(135deg, #0a2240 0%, #0d1b33 100%);
-  padding: 1.5rem 2rem;
+  padding: 1.8rem 2rem;
   color: #cdd8e6;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.85rem;
+  border-top: 3px solid #e87a20;
 }
 .footer__inner {
   max-width: 1200px;
