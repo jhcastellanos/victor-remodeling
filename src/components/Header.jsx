@@ -1,4 +1,5 @@
 import { useLanguage } from '../context/LanguageContext';
+import logoImg from '../assets/logo_design.png';
 import './Header.css';
 
 export default function Header() {
@@ -12,7 +13,7 @@ export default function Header() {
     <header className="header">
       <div className="header__inner">
         <div className="header__logo">
-          <span className="header__logo-icon">🏠</span>
+          <img src={logoImg} alt="Victor Remodeling" className="header__logo-img" />
           <div>
             <span className="header__logo-name">VICTOR</span>
             <span className="header__logo-sub">Remodeling</span>

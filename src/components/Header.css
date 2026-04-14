@@ -19,9 +19,10 @@
   gap: 0.5rem;
   color: #fff;
 }
-.header__logo-icon {
-  font-size: 2rem;
-  filter: drop-shadow(0 0 4px rgba(255,255,255,.3));
+.header__logo-img {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
 }
 .header__logo-name {
   display: block;
