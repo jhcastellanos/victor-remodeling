@@ -1,0 +1,81 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: linear-gradient(135deg, #0a2240 0%, #133a6a 100%);
+  padding: 0 2rem;
+}
+.header__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+}
+.header__logo-icon {
+  font-size: 2rem;
+  filter: drop-shadow(0 0 4px rgba(255,255,255,.3));
+}
+.header__logo-name {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: #e87a20;
+  line-height: 1.1;
+}
+.header__logo-sub {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.header__nav {
+  display: flex;
+  gap: 1.2rem;
+}
+.header__nav button {
+  background: none;
+  border: none;
+  color: #cdd8e6;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.header__nav button:hover {
+  color: #e87a20;
+}
+.header__lang {
+  display: flex;
+  gap: 0.4rem;
+}
+.header__lang button {
+  padding: 0.3rem 0.7rem;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background: transparent;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.header__lang button.active {
+  background: #e87a20;
+  border-color: #e87a20;
+}
+
+@media (max-width: 768px) {
+  .header__nav { display: none; }
+  .header__inner { justify-content: space-between; }
+}
