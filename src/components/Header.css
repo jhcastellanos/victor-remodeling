@@ -30,7 +30,7 @@
   transform: scale(1.02);
 }
 .header__logo-img {
-  height: 80px;
+  height: 100px;
   width: auto;
   object-fit: contain;
   transition: filter 0.3s ease;
