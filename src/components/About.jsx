@@ -6,11 +6,7 @@ export default function About() {
   return (
     <section id="about" className="about">
       <div className="about__inner">
-        <h2 className="section-title">
-          <span className="title-en">{t.about.title}</span>
-          <span className="title-divider"> / </span>
-          <span className="title-es">{t.about.titleEs}</span>
-        </h2>
+        <h2 className="section-title">{t.about.title}</h2>
 
         <div className="about__card">
           <div className="about__img">

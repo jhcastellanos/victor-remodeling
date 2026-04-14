@@ -21,15 +21,9 @@ export default function Header() {
 
         <nav className="header__nav">
           <button onClick={() => scrollTo('hero')}>{t.nav.home}</button>
-          <button onClick={() => scrollTo('about')}>
-            About / Sobre Nosotros
-          </button>
-          <button onClick={() => scrollTo('services')}>
-            Services / Servicios
-          </button>
-          <button onClick={() => scrollTo('gallery')}>
-            Gallery / Galería
-          </button>
+          <button onClick={() => scrollTo('about')}>{t.nav.about}</button>
+          <button onClick={() => scrollTo('services')}>{t.nav.services}</button>
+          <button onClick={() => scrollTo('gallery')}>{t.nav.gallery}</button>
         </nav>
 
         <div className="header__lang">

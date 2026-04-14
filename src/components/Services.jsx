@@ -25,20 +25,13 @@ export default function Services() {
   return (
     <section id="services" className="services">
       <div className="services__inner">
-        <h2 className="section-title">
-          <span className="title-en">{t.services.title}</span>
-          <span className="title-divider"> / </span>
-          <span className="title-es">{t.services.titleEs}</span>
-        </h2>
+        <h2 className="section-title">{t.services.title}</h2>
 
         <div className="services__grid">
           {serviceImages.map((s) => (
             <div className="services__card" key={s.key}>
-              <img src={s.img} alt={s.key} />
-              <p>
-                <strong>{t.services[s.key]}</strong>{' '}
-                <span className="services__label-es">/ {t.services[s.key + 'Es']}</span>
-              </p>
+              <img src={s.img} alt={t.services[s.key]} />
+              <p><strong>{t.services[s.key]}</strong></p>
             </div>
           ))}
         </div>

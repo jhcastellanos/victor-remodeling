@@ -27,11 +27,7 @@ export default function Contact() {
   return (
     <section id="contact" className="contact">
       <div className="contact__inner">
-        <h2 className="section-title">
-          <span className="title-en">{t.contact.title}</span>
-          <span className="title-divider"> / </span>
-          <span className="title-es">{t.contact.titleEs}</span>
-        </h2>
+        <h2 className="section-title">{t.contact.title}</h2>
 
         <form className="contact__form" onSubmit={handleSubmit}>
           <div className="contact__row">

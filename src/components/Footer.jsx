@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="footer__inner">
         <p>
           {t.footer.rights} &nbsp;|&nbsp; {t.footer.tagline} &nbsp;|&nbsp;{' '}
-          {t.footer.follow} / {t.footer.followEs}
+          {t.footer.follow}
         </p>
         <div className="footer__social">
           <a

@@ -13,10 +13,8 @@ export default function Hero() {
       <div className="hero__overlay" />
       <div className="hero__content">
         <h1>{t.hero.title}</h1>
-        <p className="hero__subtitle">{t.hero.subtitle}</p>
         <button className="hero__cta" onClick={() => scrollTo('contact')}>
-          <span>{t.hero.cta}</span>
-          <span className="hero__cta-sub">{t.hero.ctaSub}</span>
+          {t.hero.cta}
         </button>
       </div>
     </section>
