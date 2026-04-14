@@ -30,7 +30,7 @@
   transform: scale(1.02);
 }
 .header__logo-img {
-  height: 100px;
+  height: 130px;
   width: auto;
   object-fit: contain;
   transition: filter 0.3s ease;
@@ -95,5 +95,5 @@
 @media (max-width: 768px) {
   .header__nav { display: none; }
   .header__inner { height: 80px; }
-  .header__logo-img { height: 60px; }
+  .header__logo-img { height: 100px; }
 }
